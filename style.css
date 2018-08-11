@@ -1,0 +1,13 @@
+body {
+	background: pink;
+	font-size: 18px;
+}
+form {
+	text-align: center;
+	margin-top: 50px;
+	display: block;
+}
+#result {
+	text-align: center;
+	font-weight: bold;
+}

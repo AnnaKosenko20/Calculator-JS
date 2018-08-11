@@ -3,19 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <form>
-  	Value 1: <input type="text" id="value1">
-  	Value 2: <input type="text" id="value2">
-  	Operator:
+  	<p>Enter the first number: <input type="text" id="value1"></p>
+  	<p>Enter the second number: <input type="text" id="value2"></p>
+  	<p>Choose the operator:
   	<select id="operator">
   		<option value="add">Add</option>
   		<option value="min">Minus</option>
   		<option value="div">Divide</option>
   		<option value="mul">Multiply</option>
-  	</select>
-  	<button type="button" onclick="calc()">Calculate</button>
+  	</select></p>
+  	<button type="button" onclick="calc()">Get the result</button>
   </form>
   <div id="result"></div>
 </body>
